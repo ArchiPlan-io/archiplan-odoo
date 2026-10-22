@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_archiplan_sale_order,ArchiPlan read sale orders,sale.model_sale_order,group_archiplan_readonly,1,0,0,0
+access_archiplan_sale_order_line,ArchiPlan read sale order lines,sale.model_sale_order_line,group_archiplan_readonly,1,0,0,0
+access_archiplan_product_product,ArchiPlan read products,product.model_product_product,group_archiplan_readonly,1,0,0,0
+access_archiplan_product_template,ArchiPlan read product templates,product.model_product_template,group_archiplan_readonly,1,0,0,0
+access_archiplan_uom_uom,ArchiPlan read units,uom.model_uom_uom,group_archiplan_readonly,1,0,0,0
+access_archiplan_res_partner,ArchiPlan read contacts,base.model_res_partner,group_archiplan_readonly,1,0,0,0
+access_archiplan_access_wizard,ArchiPlan access wizard,archiplan_connector.model_archiplan_access_wizard,base.group_system,1,1,1,1

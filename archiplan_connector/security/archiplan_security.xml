@@ -1,0 +1,7 @@
+<odoo>
+    <record id="group_archiplan_readonly" model="res.groups">
+        <field name="name">ArchiPlan / Read only</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+        <field name="implied_ids" eval="[(5, 0, 0)]"/>
+    </record>
+</odoo>
