@@ -5,6 +5,8 @@
     'author': 'ArchiPlan',
     'website': 'https://archiplan.io',
     'category': 'Manufacturing/Manufacturing',
+    'summary': 'Plan production from Odoo sales orders with people and machine schedules',
+    'images': ['static/description/cover.gif'],
     'depends': ['base_setup', 'mrp', 'sale'],
     'data': [
         'security/archiplan_security.xml',
