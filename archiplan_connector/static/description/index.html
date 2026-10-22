@@ -1,40 +1,86 @@
-<div class="container">
-  <p>Import Odoo sales orders into ArchiPlan, plan people and machines, and review production schedules in Manufacturing.</p>
-  <p><img src="cover.gif" class="img-fluid" alt="ArchiPlan Schedule for Odoo"></p>
-  <h2>Features</h2>
+<div class="container py-4">
+  <div class="row align-items-center g-4 py-3">
+    <div class="col-12">
+      <h2>Production scheduling you set up by talking &ndash; now inside Odoo</h2>
+      <p>ArchiPlan is production scheduling for small and mid-sized manufacturers. Describe your shop by voice or text, and it plans every order around your people, machines, shifts and deadlines. When a rush job lands or someone is off, rebuild the plan in one click.</p>
+      <p>Selected Odoo sales orders go into ArchiPlan, and the live plan appears in Odoo under Manufacturing &rarr; Planning.</p>
+      <p><img src="cover.gif" class="img-fluid rounded shadow-sm" alt="ArchiPlan Schedule for Odoo"></p>
+    </div>
+  </div>
+
+  <h2 class="text-center py-3">The plan was right this morning. Then the phone rang.</h2>
+  <div class="row g-3">
+    <div class="col-md-6">
+      <div class="card h-100 p-4">
+        <h3>A hot job comes in</h3>
+        <p>Say yes and other orders slip. Say no and the customer may take the work elsewhere.</p>
+        <p><strong>With ArchiPlan:</strong> See in a minute whether it fits and which orders it would push back.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card h-100 p-4">
+        <h3>Delivery dates are a guess</h3>
+        <p>You give the customer a date and hope. When it slips, your word is on the line.</p>
+        <p><strong>With ArchiPlan:</strong> Dates come from the real plan, so you can give them with confidence.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card h-100 p-4">
+        <h3>The whole plan lives in one head</h3>
+        <p>If you are off, nobody knows what runs next, and you worry you have forgotten something.</p>
+        <p><strong>With ArchiPlan:</strong> The plan lives in ArchiPlan, and the floor can see what runs next, where and with whom.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card h-100 p-4">
+        <h3>The board is out of date by lunch</h3>
+        <p>Rewriting the whiteboard or patching the spreadsheet eats hours, and nobody sees that work.</p>
+        <p><strong>With ArchiPlan:</strong> Tell ArchiPlan what changed and rebuild the plan in one click.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="py-3">How it works with Odoo</h2>
+  <div class="row g-3">
+    <div class="col-md-4"><div class="card h-100 p-4"><h3>1. Connect</h3><p>Create a dedicated read-only Odoo user for ArchiPlan.</p></div></div>
+    <div class="col-md-4"><div class="card h-100 p-4"><h3>2. Pick and preview</h3><p>Choose the sales orders you want to plan and check the preview before importing.</p></div></div>
+    <div class="col-md-4"><div class="card h-100 p-4"><h3>3. Plan and review</h3><p>Build the plan in one click and see the schedule in Odoo under Manufacturing &rarr; Planning.</p></div></div>
+  </div>
+
+  <h2 class="py-3">Screenshots</h2>
+  <div class="row g-4">
+    <div class="col-12"><h3>See the whole plan inside Odoo</h3><p>Review production work across people and machines in the Manufacturing schedule.</p><img src="01-schedule-overview.png" class="img-fluid rounded shadow-sm" alt="Production schedule overview inside Odoo"></div>
+    <div class="col-12"><h3>Follow an order step by step</h3><p>Trace linked steps and check their start, finish and on-time status.</p><img src="02-schedule-order-details.png" class="img-fluid rounded shadow-sm" alt="Selected order with linked production steps and details"></div>
+    <div class="col-12"><h3>Zoom in to the hour</h3><p>Read order labels and follow work across resource rows at an hourly scale.</p><img src="03-schedule-zoomed.png" class="img-fluid rounded shadow-sm" alt="Hourly schedule view across resource rows"></div>
+    <div class="col-12"><h3>Choose which orders to bring in</h3><p>Filter Odoo sales orders by status and creation date.</p><img src="04-odoo-choose-orders.png" class="img-fluid rounded shadow-sm" alt="Choose Odoo sales orders by status and date"></div>
+    <div class="col-12"><h3>Check the order details first</h3><p>Review products, quantities and customer references before anything is saved.</p><img src="05-odoo-import-preview.png" class="img-fluid rounded shadow-sm" alt="Sales order import preview with products and customer references"></div>
+    <div class="col-12"><h3>Keep Odoo access read-only</h3><p>Review the access settings while the API key remains masked.</p><img src="06-odoo-archiplan-access.png" class="img-fluid rounded shadow-sm" alt="ArchiPlan access wizard with masked API key"></div>
+    <div class="col-12"><h3>Set up by talking</h3><p>Describe what you make in a sentence and Copilot can add the products for you to review.</p><img src="07-copilot-adds-products.png" class="img-fluid rounded shadow-sm" alt="Copilot adding products from a sentence"></div>
+    <div class="col-12"><h3>Give each machine its rules and hours</h3><p>Set machine skills, operation rules and working hours.</p><img src="08-resource-editor.png" class="img-fluid rounded shadow-sm" alt="Machine resource editor with skills and working hours"></div>
+    <div class="col-12"><h3>Define products as step-by-step recipes</h3><p>Set the machine and skill needed for each production step.</p><img src="09-product-editor.png" class="img-fluid rounded shadow-sm" alt="Product recipe with machine and skill requirements per step"></div>
+  </div>
+
+  <h2 class="py-3">Why shops choose ArchiPlan</h2>
   <ul>
-    <li>Import selected Odoo sales orders with status and creation date filters.</li>
-    <li>Preview products, quantities, and customer references before importing.</li>
-    <li>Plan production steps across people and machines in a schedule chart.</li>
-    <li>Open a step to review its order, timing, and resource assignment.</li>
-    <li>Configure read-only Odoo access for ArchiPlan.</li>
+    <li>Build and rebuild plans in one click.</li>
+    <li>Schedule work by person and by machine.</li>
+    <li>Check plans against shifts, skills and deadlines.</li>
+    <li>Get plain warnings that say what to fix.</li>
+    <li>Keep started work where it is when the plan changes.</li>
+    <li>Use forms for people, skills, time off, machines and products if you prefer.</li>
   </ul>
-  <h2>Screenshots</h2>
-  <p><img src="01-schedule-overview.png" class="img-fluid" alt="Schedule overview"></p>
-  <p>Open Manufacturing → Planning → ArchiPlan Schedule to see 25 orders and 75 scheduled steps across the Oct 23–Nov 17 work window with plan performance KPIs.</p>
-  <p><img src="02-schedule-order-details.png" class="img-fluid" alt="SO-2041 selected in the schedule"></p>
-  <p>Select SO-2041 to follow its linked steps and inspect start, finish, and on-time status.</p>
-  <p><img src="03-schedule-zoomed.png" class="img-fluid" alt="Zoomed schedule with SO-2041 selected"></p>
-  <p>Zoom to Oct 26–28 to inspect hourly order labels and the selected SO-2041 sequence across resource rows.</p>
-  <p><img src="04-odoo-choose-orders.png" class="img-fluid" alt="Choose Odoo sales orders to import"></p>
-  <p>Filter Odoo sales orders by status and creation date to confirm 20 matching orders before importing.</p>
-  <p><img src="05-odoo-import-preview.png" class="img-fluid" alt="Odoo order import preview"></p>
-  <p>Review 20 Odoo sales order rows with customer references, products, and quantities before importing.</p>
-  <p><img src="06-odoo-archiplan-access.png" class="img-fluid" alt="ArchiPlan access settings wizard"></p>
-  <p>Open the ArchiPlan access wizard in Odoo Settings to review connection values with the API key masked.</p>
-  <p><img src="07-copilot-adds-products.png" class="img-fluid" alt="Copilot adding furniture products"></p>
-  <p>Ask Copilot to add three furniture products and see its saved products in the workspace list.</p>
-  <p><img src="08-resource-editor.png" class="img-fluid" alt="Panel Saw A resource editor"></p>
-  <p>Select Panel Saw A to review its machine group, operation rules, and weekday working hours.</p>
-  <p><img src="09-product-editor.png" class="img-fluid" alt="Oak Bookcase product editor"></p>
-  <p>Open Oak Bookcase and expand Cut panels to inspect its duration, resource and skill requirements, and step timing rules.</p>
-  <h2>Setup</h2>
+
+  <h2 class="py-3">Setup</h2>
   <ol>
     <li>Install ArchiPlan Connector in Odoo.</li>
-    <li>Open Settings and configure the ArchiPlan URL and view-only schedule link.</li>
+    <li>In Settings, configure the ArchiPlan URL and view-only schedule link.</li>
     <li>Use Create ArchiPlan access to generate credentials for a dedicated read-only internal user.</li>
-    <li>In ArchiPlan, open Orders → Import → From Odoo and connect with the generated access details.</li>
-    <li>Select orders, review the import preview, and import them into ArchiPlan.</li>
+    <li>In ArchiPlan, open Orders &rarr; Import &rarr; From Odoo and connect with those credentials.</li>
+    <li>Choose orders, review the preview, and import them into ArchiPlan.</li>
   </ol>
-  <p>Learn more at <a href="https://archiplan.io">archiplan.io</a> · <a href="https://archiplan.io/privacy">Privacy policy</a></p>
+
+  <div class="text-center py-4">
+    <p><a href="https://archiplan.io" class="btn btn-primary rounded">Join the private beta at archiplan.io</a></p>
+    <p><a href="https://archiplan.io/#contact">Contact</a> &middot; <a href="https://archiplan.io/privacy">Privacy</a></p>
+  </div>
 </div>
