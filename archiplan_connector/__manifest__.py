@@ -6,7 +6,7 @@
     'website': 'https://archiplan.io',
     'category': 'Manufacturing/Manufacturing',
     'summary': 'Production scheduling, production planning and manufacturing scheduling for Odoo: an APS (advanced planning and scheduling) that turns your sales orders into a production schedule on people and machines, around shifts, skills and deadlines. Finite capacity scheduler, production planner, Gantt chart, job shop and shop floor scheduling, machine scheduling, workforce scheduling, shift scheduling, capacity planning, resource planning, make-to-order scheduling and reliable delivery dates. Set up by voice or text with an AI copilot.',
-    'images': ['static/description/cover.gif'],
+    'images': ['static/description/cover.png'],
     'depends': ['base_setup', 'mrp', 'sale'],
     'data': [
         'security/archiplan_security.xml',
