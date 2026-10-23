@@ -29,7 +29,7 @@ class ArchiplanSchedule extends Component {
     }
 
     openSettings() {
-        this.action.doAction("base_setup.action_general_configuration");
+        this.action.doAction("archiplan_connector.action_archiplan_configuration");
     }
 }
 
